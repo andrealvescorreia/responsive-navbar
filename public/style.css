@@ -191,16 +191,16 @@ main {
   --bg-secondary: #e4e4e4;
 }
 
-.theme-icon {
+.theme-icon svg {
   display: none;
 }
 
-.dark #darkIcon {
+.dark #darkIcon svg {
   max-width: 2rem;
   display: block;
 }
 
-.light #lightIcon {
+.light #lightIcon svg {
   max-width: 2rem;
   display: block;
 }

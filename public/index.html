@@ -2,9 +2,14 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script defer src="theme.js"></script>
+  <script src="svg/logo.js"></script>
   <script src="svg/cat.js"></script>
+  <script src="svg/alien.js"></script>
+  <script src="svg/space.js"></script>
+  <script src="svg/shuttle.js"></script>
   <script src="svg/moon.js"></script>
   <script src="svg/sun.js"></script>
+
   <title>Responsive Navbar</title>
   <link rel="stylesheet" href="style.css" />
   <link
@@ -16,15 +21,13 @@
 <body>
   <nav class="navbar">
     <ul class="navbar-nav">
-      <!--logo-->
       <li class="logo">
         <a href="https://github.com/andrealvescorreia" class="nav-link">
           <span class="link-text logo-text">andrealves</span>
-          <script src="svg/logo.js"></script>
+          <logo-svg></logo-svg>
         </a>
       </li>
 
-      <!--gatinho-->
       <li class="nav-item">
         <a href="https://www.youtube.com/watch?v=J---aiyznGQ" class="nav-link" target="_blank">
           <cat-svg></cat-svg>
@@ -32,39 +35,31 @@
         </a>
       </li>
 
-      <!--alien-->
       <li class="nav-item">
         <a href="#" class="nav-link">
-          <script src="svg/alien.js"></script>
+          <alien-svg></alien-svg>
           <span class="link-text">Aliens</span>
         </a>
       </li>
 
-      <!--espaço-->
       <li class="nav-item">
         <a href="#" class="nav-link">
-          <script src="svg/space.js"></script>
+          <space-svg></space-svg>
           <span class="link-text">Espaço</span>
         </a>
       </li>
 
-      <!--nave-->
       <li class="nav-item">
         <a href="#" class="nav-link">
-          <script src="svg/shuttle.js"></script>
+          <shuttle-svg></shuttle-svg>
           <span class="link-text">Nave</span>
         </a>
       </li>
 
-      <!--tema-->
       <li class="nav-item" id="themeButton">
         <a href="#" class="nav-link">
-          <!--lua-->
-          <moon-svg></moon-svg>
-
-          <!--sol-->
-          <sun-svg></sun-svg>
-         
+          <moon-svg class="theme-icon" id="lightIcon"></moon-svg>
+          <sun-svg  class="theme-icon" id="darkIcon"></sun-svg>
           <span class="link-text">Tematizar</span>
         </a>
       </li>
