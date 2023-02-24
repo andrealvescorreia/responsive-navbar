@@ -196,8 +196,6 @@ main {
 }
 
 .dark #darkIcon {
-  /*width: 4rem;
-    display: block;*/
   max-width: 2rem;
   display: block;
 }
