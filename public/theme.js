@@ -2,7 +2,7 @@ const themeMap = {
     dark: "light",
     light: "dark"
 };
-let current = 'light'
+let current = 'dark'
 const bodyClass = document.body.classList;
 bodyClass.add(current)
 
