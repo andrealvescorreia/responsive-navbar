@@ -88,6 +88,7 @@ main {
 
 .nav-link svg {
   min-width: 2rem;
+  max-width: 2rem;
   margin: 0 1.5rem;
 }
 
@@ -98,9 +99,11 @@ main {
 .fa-primary {
   color: #ff7eee;
 }
+
 .fa-secondary {
   color: #df49a6;
 }
+
 .fa-primary,
 .fa-secondary {
   transition: var(--transition-speed);
@@ -175,31 +178,31 @@ main {
 
 
 .dark {
-    --text-primary: #b6b6b6;
-    --text-secondary: #ececec;
-    --bg-primary: #23232e;
-    --bg-secondary: #141418;
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
 }
-  
+
 .light {
-    --text-primary: #1f1f1f;
-    --text-secondary: #000000;
-    --bg-primary: #ffffff;
-    --bg-secondary: #e4e4e4;
+  --text-primary: #1f1f1f;
+  --text-secondary: #000000;
+  --bg-primary: #ffffff;
+  --bg-secondary: #e4e4e4;
 }
 
 .theme-icon {
-    display: none;
+  display: none;
 }
 
 .dark #darkIcon {
-    /*width: 4rem;
+  /*width: 4rem;
     display: block;*/
-    max-width: 2rem;
-    display: block;
+  max-width: 2rem;
+  display: block;
 }
 
 .light #lightIcon {
-    max-width: 2rem;
-    display: block;
+  max-width: 2rem;
+  display: block;
 }
