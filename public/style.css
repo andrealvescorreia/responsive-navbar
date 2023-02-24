@@ -91,19 +91,6 @@ main {
   margin: 0 1.5rem;
 }
 
-.theme-icon {
-    display: none;
-}
-
-.dark #darkIcon {
-    display: block;
-}
-
-.light #lightIcon {
-    display: block;
-}
-
-
 
 
 /*fontawesome.com*/
@@ -125,7 +112,7 @@ main {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.3ch;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .logo-text {
